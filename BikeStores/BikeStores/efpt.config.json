@@ -1,0 +1,61 @@
+﻿{
+   "ContextClassName": "BikestoresContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "BikeStores",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[production].[brands]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[production].[categories]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[production].[products]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[production].[stocks]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[sales].[customers]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[sales].[order_items]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[sales].[orders]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[sales].[staffs]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[sales].[stores]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false,
+   "UseStoredProcedures": false
+}
